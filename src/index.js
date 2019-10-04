@@ -68,6 +68,7 @@ export class Multiselect extends Component {
                 <div className="chip">
                     {this.returnChip()}
                 </div>
+                <p>fwfwefwefwe</p>
                 <input type="text" name="Search" placeholder={this.props.placeholderText?this.props.placeholderText : 'search data'} className="input-box" onChange={e => this.searchFun(e)}/>
                 <div className="search-result">
                     <div className="list-result">
